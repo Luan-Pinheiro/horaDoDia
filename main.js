@@ -4,6 +4,7 @@ function carregar(){
     let data = new Date();
     let hora = data.getHours();
     let minuto = data.getMinutes();
+    hora = 19
     if(hora>1 && minuto > 1){
         text.innerText = `Agora são ${hora} horas e ${minuto} minutos`
     }else if( hora == 1 && minuto != 1){
@@ -19,7 +20,7 @@ function carregar(){
     }else 
         if(hora >= 12 && hora < 18){
             img.src = 'tarde1.png';
-            document.body.style.background = 'bisque'
+            document.body.style.background = '#faca9c'
         }
         else{
             img.src = 'noite1.png'

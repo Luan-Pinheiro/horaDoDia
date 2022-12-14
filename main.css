@@ -1,0 +1,31 @@
+body{
+    background-color:rgb(13, 145, 145);
+    font: normal 15pt Times;
+}
+header{
+    color: whitesmoke;
+    text-align: center;
+}
+section{
+    background-color: rgb(222, 230, 230);
+    border-radius: 10px;
+    padding: 15px;
+    width: 450px;
+    margin: auto;
+    box-shadow: 6px 7px 10px rgba(0, 0, 0, 0.466);
+}
+div{
+    text-align: center;
+    padding: 8px;
+}
+
+#foto img{
+    max-width:350px;
+    max-height:300px;
+    width: auto;
+    height: auto;
+}
+footer{
+ text-align: center;
+ font-style: italic;
+}
